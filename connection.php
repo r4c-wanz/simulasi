@@ -1,1 +1,1 @@
-<?php $conn = mysqli_connect("localhost", "root", "", "db_simulasi") ?>
+<?php $conn = mysqli_connect("localhost", "root", "", "db_name") ?>
