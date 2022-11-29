@@ -8,7 +8,7 @@ require '../layout/coolform.html'
 <?php if ($_GET["as"] == "b") : ?>
 <?php if(isset($_POST["submitAdd-produk"])){
         if(addProduk($_POST) > 0){
-            echo "<script type='text/javascript'> alert('Data Produk berhasil ditambahkan'); window.location = 'data_produk.php'; </script> "; 
+            echo "<script type='text/javascript'> alert('Data Produk berhasil ditambahkan'); window.location = 'data_produk.php'; </script>"; 
         } else {
             // echo "<script type='text/javascript'> alert('Data Produk gagal ditambahkan'); window.location = 'data_produk.php'; </script>"; 
         } }
